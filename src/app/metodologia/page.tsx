@@ -9,7 +9,7 @@ const preguntas = [
 
 export default function Metodologia() {
   return (
-    <div className="bg-gray-100 text-gray-900 py-16 px-6">
+    <div className="bg-gray-100 text-gray-900 py-26 px-6">
       {/* Título Principal */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}

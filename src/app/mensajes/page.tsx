@@ -4,7 +4,7 @@ import WordCloud from "@/components/WordCloud";
 
 export default function Mensajes() {
   return (
-    <div className="bg-gray-100 text-gray-900 py-16 px-6">
+    <div className="bg-gray-100 text-gray-900 py-26 px-6">
       <div className="container mx-auto max-w-4xl text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -19,7 +19,7 @@ export default function Mensajes() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-gray-600 mb-10"
+          className="text-gray-600 mb-15"
         >
           Esta página visibiliza la voz de las parroquias rurales del Ecuador mediante mensajes representativos y curiosidades extraídas de entrevistas con sus representantes.
         </motion.p>

@@ -20,7 +20,7 @@ const curiosities = [
 
 export default function DatosCuriosos() {
   return (
-    <div className="bg-gray-100 py-16 px-6 text-center">
+    <div className="bg-gray-100 py-26 px-6 text-center">
       {/* Título */}
       <h2 className="text-3xl font-bold">Emociones Percibidas en los Mensajes</h2>
 

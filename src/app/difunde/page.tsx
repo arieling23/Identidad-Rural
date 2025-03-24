@@ -30,7 +30,7 @@ export default function Difunde() {
     const [selectedItem, setSelectedItem] = useState<Elemento | null>(null);
   
     return (
-      <div className="bg-gray-100 text-gray-900 py-16 px-6">
+      <div className="bg-gray-100 text-gray-900 py-26 px-6">
         <h2 className="text-center text-3xl font-bold mb-4">Material de Difusión</h2>
         <p className="text-center text-gray-600 mb-8">Explora, comparte y sé parte del cambio.</p>
   
